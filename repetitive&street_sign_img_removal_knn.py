@@ -20,6 +20,7 @@ from sklearn.feature_extraction.text import TfidfVectorizer
 # if error occurs, then update conda first by running: conda update --force conda 
 import sparse_dot_topn.sparse_dot_topn as ct
 
+#!to install nmslib, use: conda install -c conda-forge nmslib
 import nmslib
 from scipy.sparse import csr_matrix # may not be required 
 from scipy.sparse import rand # may not be required
