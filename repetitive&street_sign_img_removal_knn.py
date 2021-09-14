@@ -15,7 +15,9 @@ from ftfy import fix_text
 import numpy as np
 from scipy.sparse import csr_matrix
 from sklearn.feature_extraction.text import TfidfVectorizer
-#!pip install sparse_dot_topn #uncomment to install
+
+# conda install -c conda-forge sparse_dot_topn to install
+# if error occurs, then update conda first by running: conda update --force conda 
 import sparse_dot_topn.sparse_dot_topn as ct
 
 import nmslib
